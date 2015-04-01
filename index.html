@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>探探用户颜值PK </title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div id="container">
+    <!--index-->
+    <div class="page" id="pageIndex">
+        <img src="images/bg_index.png" width="100%" height="auto" class="block">
+        <p class="index-desc">
+            闯过8关<br/>你就能成为探探"火眼金睛"！
+        </p>
+        <a href="javascript:;" id="btnStart" class="btn btn-pk"><span class="hide">开始PK</span></a>
+    </div>
+
+    <!--questions-->
+    <div class="page page-questions" id="pageQuestions">
+        <img src="images/bg_questions.png" width="100%" height="auto" class="block">
+        <div class="left-side">
+            <img src="images/transparent.gif" class="side-img" id="leftImg" width="100%">
+            <i class="icon icon-correct modal J_icon hide"></i>
+        </div>
+        <div class="right-side">
+            <img src="images/transparent.gif" class="side-img" id="rightImg" width="100%">
+            <i class="icon icon-wrong modal J_icon hide"></i>
+        </div>
+    </div>
+
+    <!--pageAB -->
+    <div class="page page-ab" id="pageAB">
+        <img src="images/bg_share.png" width="100%" height="auto" class="block">
+    </div>
+
+    <!--pageFail -->
+    <div class="page page-fail" id="pageFail">
+        <img src="images/bg_fail.png" width="100%" height="auto" class="block">
+    </div>
+
+    <div class="page page-pc" id="pagePC">
+        <img src="images/pic_pc.jpg" width="440" alt="扫描图中二维码">
+    </div>
+</div>
+<!--[if !IE]><!--> <script src="js/zepto.min.js"></script> <!--<![endif]-->
+<!--[if IE]> <script src="js/jquery-1.11.1.min.js"></script> <![endif]-->
+<script src="js/jweixin-1.0.0.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
